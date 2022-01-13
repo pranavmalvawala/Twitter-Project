@@ -1,8 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-var TwitterStrategy = require('passport-twitter').Strategy;
+const TwitterStrategy = require('passport-twitter').Strategy;
 const session = require('express-session');
-
+const passport = require('passport');
 
 const app = express();
 
